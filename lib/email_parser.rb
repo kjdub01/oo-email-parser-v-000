@@ -9,7 +9,7 @@ class EmailParser
     @emails = emails
   end
   
-  def parse(cvs_data)
+  def parse
   puts parsed_emails = emails.split.collect {|address| address.split(',')} 
   parsed_arr = parsed_emails.flatten.uniq
   parsed_arr
