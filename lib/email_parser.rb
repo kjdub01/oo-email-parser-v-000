@@ -13,7 +13,6 @@ class EmailParser
     email = self.new # This is an important line.
     email
     end
-    
+    emails
   end
-  
 end
