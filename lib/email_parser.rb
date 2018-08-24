@@ -10,7 +10,7 @@ class EmailParser
     emails = rows.collect do |row|
     data = row.split(", ")
     
-    person = self.new # This is an important line.
+    email = self.new # This is an important line.
   end
   
 end
