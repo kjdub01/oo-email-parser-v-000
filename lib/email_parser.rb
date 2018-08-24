@@ -11,6 +11,9 @@ class EmailParser
     data = row.split(", ")
     
     email = self.new # This is an important line.
+    email
+    end
+    
   end
   
 end
