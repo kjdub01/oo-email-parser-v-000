@@ -10,13 +10,6 @@ class EmailParser
   end
   
   def parse(cvs_data)
-    rows = csv_data.split("\n")
-    emails = rows.collect do |row|
-    data = row.split(", ")
-    
-    email = self.new # This is an important line.
-    email
-    end
-    emails
+   
   end
 end
