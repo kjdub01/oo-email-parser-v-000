@@ -5,7 +5,7 @@
 class EmailParser
   attr_accessor :emails
   
-  def parse()
+  def parse(cvs_data)
     
   end
   
